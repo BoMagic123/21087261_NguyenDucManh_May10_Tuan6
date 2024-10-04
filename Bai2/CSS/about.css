@@ -1,0 +1,11 @@
+.wrapper {
+    background-color: rgb(56, 58, 68);
+    height: 92.3vh;
+}
+ 
+
+.image-box-2 img {
+    width: 350px; 
+    display: block;    
+}
+ 

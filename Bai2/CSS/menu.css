@@ -1,0 +1,48 @@
+
+.menu-btn {
+    transition: all 0.2s ease-in-out;
+}
+
+.menu-btn:hover {
+    background-color: black !important;
+    color: #fff;
+}
+
+.card-img {
+    background-color: aliceblue;
+    width: 100%;
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 40px !important;
+}
+
+.card-img {
+    background-color: aliceblue;
+}
+
+.card {
+    overflow: hidden !important;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.card-reset {
+    width: 26.3333% !important;
+}
+
+.card-reset .card {
+    width: 100% !important; 
+}
+
+.svg-reset {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+    padding: 2px;
+    border-radius: 100%;
+}

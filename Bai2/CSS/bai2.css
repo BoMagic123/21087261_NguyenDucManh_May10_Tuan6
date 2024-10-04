@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'FontAwesome';
+    src: url(../fonts/fontawesome-webfont.ttf) format('woff');
+}
+
+svg {
+    cursor: pointer !important;
+    transition: all 0.2 ease-in-out;
+}
+
+svg:hover {
+    color: orange !important;
+}
+
+body {
+    font-family: FontAwesome;
+    overflow-x: hidden;
+    
+}
+
+.image-box {
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* right: 0;
+    bottom: 0; */
+    bottom: -18%;
+    right: -10%;
+}
+
+
+header {
+    z-index: 5;
+}
+
+#container {
+    width: 80%;
+    margin: 0 auto;
+    height: 80vh;
+}
+
+#container-2 {
+    width: 80% !important;
+    margin: 0 auto;
+}
+
+.menu-link {
+    cursor: pointer;
+}
+
+.menu-link:hover {
+    color: orange !important;
+}
+
+svg {
+    width: 40% !important;
+}
+
+
+.logo-name {
+    font-family: FontAwesome;
+}
+
+.btn-2 {
+    width: 180px !important;
+    margin-left: 20px;
+}
+
+
+.hinh-tron:first-child {
+    margin-left: 20px;
+
+}
+
+.hinh-tron {
+    width: 8px !important;
+    height: 8px !important;
+    border-radius: 100%;
+    background-color: white;
+    padding: 0 !important;
+    margin-right: 6px;
+    transition: all 0.2s ease;
+}
+
+.hinh-tron:hover {
+    background-color: orange;
+    width: 12px !important;
+    height: 12px !important;
+}
+
+.round-box {
+    margin-top: 100px !important;
+}
